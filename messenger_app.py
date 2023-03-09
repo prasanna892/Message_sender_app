@@ -1,9 +1,7 @@
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-import sys, os
-
-os.chdir(r"F:\python\PyQt5 project\New folder") # set cwd
+import sys
 
 from server import Server
 from client import Client
