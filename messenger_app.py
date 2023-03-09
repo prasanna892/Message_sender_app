@@ -102,7 +102,7 @@ class MainWindow(QMainWindow):
         self.status_lbl.setText("Session opened in:" if self.sr_btn.isChecked()==1 else "Client listening to:")
         self.sr_or_cl_name_le.setPlaceholderText("Enter "+("server" if self.sr_btn.isChecked()==1 else "client")+" name")
         self.sr_or_cl_name.setText(("Server " if self.sr_btn.isChecked()==1 else "Client ")+"name: "+self.name)
-        self.sr_or_cl_activate_btn.setText("Activate server" if self.sr_btn.isChecked()==1 else "Connect hosr")
+        self.sr_or_cl_activate_btn.setText("Activate server" if self.sr_btn.isChecked()==1 else "Connect host")
         self.start_indicate_lbl.setText(("Server " if self.sr_btn.isChecked()==1 else "Client ")+"state: In-active")
         
     def serverOrClientConfrim(self):
