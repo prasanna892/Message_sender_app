@@ -1,7 +1,7 @@
 # Message_sender_app
 
 ## Description:
- This is a demonstration of making networking app using PyQt (Qt framework) to send and receive message using WLAN.
+ This is a demonstration of making networking app using PyQt (Qt framework) to send and receive message through WLAN.
 
  Run messenger_app.py to start the application.
  
