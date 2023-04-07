@@ -7,7 +7,7 @@
  
 ## Features 
  1) You can connect client equal to your router supports.
- 2) Indicate error on chat box.
+ 2) Connectivity error indicate in chat box.
  3) Attractive GUI.
  4) Data shared through wireless LAN (Wi-Fi) using TCP protocol.
 
